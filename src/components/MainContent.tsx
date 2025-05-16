@@ -20,7 +20,7 @@ export const MainContent = () => {
           <div className="text-center p-8 max-w-md">
             <MapIcon className="h-16 w-16 mx-auto text-blue-600 mb-4" />
             <h2 className="text-2xl font-semibold text-gray-800 mb-2">
-              Benvenuto nel Rilevatore di Luoghi Sensibili
+              Benvenuto in GeoBet Analyzer
             </h2>
             <p className="text-gray-600 mb-6">
               Inserisci un indirizzo italiano per visualizzare tutti i luoghi sensibili nelle vicinanze

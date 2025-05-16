@@ -27,8 +27,8 @@ export const LocationStats = () => {
     categoryCounts[place.category]++;
   });
   
-  // Get total counts
-  const totalSensitivePlaces = sensitivePlaces.length;
+  // Get total counts - excluding 'other' category from sensitive places
+  const totalSensitivePlaces = sensitivePlaces.filter(place => place.category !== 'other').length;
   const totalBettingShops = bettingShops.length;
   const totalPlaces = totalSensitivePlaces + totalBettingShops;
   
